@@ -62,6 +62,23 @@ Recoger todos los pickups para avanzar de nivel.
 ✅ Reinicio manual con tecla R.
 ✅ Cámara suave y dinámica con CameraController.
 
+🔹 Característica extra de Unity
+
+Se ha añadido rebote de la bola contra las paredes mediante un Physics Material con los siguientes ajustes:
+
+Bounciness: 1 (rebote máximo)
+
+Friction Combine: Minimum
+
+Bounce Combine: Maximum
+
+Dynamic Friction: 0
+
+Static Friction: 0
+
+Esto permite que la bola rebote de forma consistente y rápida al chocar contra cualquier muro, aumentando la jugabilidad y demostrando el uso de Physics Materials de Unity.
+
+
 🗂️ Estructura del proyecto
 AdventureRoller/
 ├─ Assets/
